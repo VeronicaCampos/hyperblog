@@ -8,19 +8,34 @@ body
 	padding: 0;
 }
 
+#cabecera 
+{
+	background: pink;
+	box-shadow: 0px 5px 30px 0px grey;
+	color: black;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.5em;
+}
+
+#cabecera#tagline
+{
+	padding: 0 0 0 1em;
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
 #container
 {
 	width: 70%;
 	padding: 1em;
 	text-align: left;
-	borde: 1px solid white;
+	border: 1px solid grey;
 	margin: 0 auto;
 }
 
 #container h1
-
 {
 	font-size: 20 px;
-
 }
 
